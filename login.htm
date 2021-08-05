@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        #Login{
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: #2b2d42;
+        }
+        .form-label{
+            color: #293241;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            padding-top: 4px;
+          }
+    </style>
+    <title>Login</title>
+</head>
+<body>
+    <section class="vh-100" style="background-color: #dee2ff;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+              <img src="https://ouch-cdn2.icons8.com/n4CANXYyVbiQjYHrTiuVa153hNAjkR4IBKyczaB3Ikw/rs:fit:784:784/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTA2/L2Q1NGFiNDVjLWIw/ZTItNGQxMi1iNzBh/LTIxNTk4N2IzNGRl/Yi5wbmc.png" class="img-fluid" alt="Phone image">
+            </div>
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                <p class="text-center h1 mb-5 mx-1 mx-md-4 mt-4" id="Login">Login</p>
+              <form>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                  <label class="form-label" for="form1Example13">Email address</label>
+                </div>
+      
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                  <label class="form-label" for="form1Example23">Password</label>
+                </div>
+      
+                <div class="d-flex justify-content-around align-items-center mb-4">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="form1Example3"
+                      checked
+                    />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                  </div>
+                  <a href="#!">Forgot password?</a>
+                </div>
+      
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-dark btn-lg btn-block">Login</button>
+      
+                <div class="divider d-flex align-items-center my-4">
+                  <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+                </div>
+      
+                <a class="btn btn-md btn-block text-white" style="background-color: #4b3f72;font-family: 'Inter', sans-serif;
+                font-weight: 400;" href="#!" role="button">
+                  Continue with <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="btn btn-md text-white btn-block" style="background-color: #4b3f72;font-family: 'Inter', sans-serif;
+                font-weight: 400;" href="#!" role="button">
+                  Continue with <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+      
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

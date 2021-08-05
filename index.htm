@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        body{
+
+        }
+        .nav .navbar-brand {
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .nav-item a {
+            font-size: 10px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        article header {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            margin-top: -10px;
+            font-weight: 500;
+        }
+
+        article p {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        #input {
+            margin: 0 auto;
+        }
+
+        #analyse {
+            font-size: 10px;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        #analyse a {
+            font-weight: 400;
+            background: transparent;
+            font-size: 10px;
+            text-align: center;
+            color: #f2e9e4;
+            padding: 4px 8px;
+            margin: 6px;
+            text-decoration: none;
+        }
+
+        #analyse .button {
+            border: 1px solid #22223b;
+            background-color: #22223b;
+            border-radius: 5px;
+            font-feature-settings: "cpsp"on;
+            text-decoration: none;
+            white-space: wrap;
+            cursor: pointer;
+            box-sizing: border-box;
+            width: 60px;
+            height: 25px;
+            text-transform: uppercase;
+        }
+
+        #analyse .button:hover {
+            background-color: #fff;
+            color: #22223b;
+        }
+
+        .footer-1 {
+            background-color: #d8d4f2;
+            color: #212529;
+            margin-top: 50px;
+            height: 40vh;
+            display: flex;
+            font-family: 'Inter', sans-serif;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        .footer-2 {
+            font-size: 10px;
+            margin-left: 40px;
+            margin-top: 5px;
+        }
+
+
+        .footer-2 p {
+            margin: 10pt auto;
+        }
+        .details{
+            color: #6d6875;
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            font-size: 8px;
+        }
+
+
+        .footer-3 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-left: 240px;
+            margin-top: 10px;
+        }
+
+        .footer-4 p {
+            font-size: small;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            color: #212529;
+        }
+
+        .footer-4 ul {
+            margin-left: -10px;
+            list-style-type: none;
+        }
+
+        .footer-4 li,
+        li a {
+
+            text-decoration: none;
+            font-size: 9.5px;
+            margin-top: 7pt;
+            color: #6d6875;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+        }
+    </style>
+   
+    <title>index</title>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top navbar-light navbar-expand-lg navbar-toggler shadow-sm p-2 mb-5 bg-body rounded fs-6">
+        <nav class="nav">
+            <a class="navbar-brand" href="#">Screener.in <span><img
+                        src="https://image.flaticon.com/icons/png/128/3884/3884466.png" alt="Stocks" width="24"
+                        height="24" style="margin-top:-5px;"></span></a>
+        </nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-primary border border-primary border-1 rounded " aria-current="page"
+                    href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Market Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Portfolio</a>
+            </li>
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-primary border border-primary border-1 rounded" href="#">Get a free account</a>
+            </li>
+        </ul>
+        <div class="collapse navbar-right navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li>Home</li>
+                <li>Market Data</li>
+                <li>Portfolio</li>
+                <li>Login</li>
+                <li>Get a Free account</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-lg flex flex-column d-flex justify-content-center">
+        <article>
+            <img src="https://ouch-cdn2.icons8.com/0tsb6b_ah6UPrW_xM7kAHKZ-KxThanqrv9qHwo6WTIA/rs:fit:784:784/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvODI2/L2E3YWM4YWM0LTM0/ZjUtNDI3MS04NDM2/LTE4ZGM0NDkxMDRk/Ny5wbmc.png" alt="Illustration" width="200"
+                height="200" style="margin-left:320px; margin-top:-50px;">
+            <header class="p-2 bd-highlight d-flex justify-content-center">Screener.in <span><img
+                src="https://image.flaticon.com/icons/png/128/3884/3884466.png" alt="Stocks" width="24"
+                height="24" style="margin-top:-5px; margin-left:5px"></span></header>
+            <p class="p-2 bd-highlight d-flex justify-content-sm-center">Stock analysis and screening tool for investors
+                in India.</p>
+        </article>
+        <section class="container-lg flex flex-column justify-content-center">
+            <div class="col-sm-5" id="input">
+                <input class="form-control form-control-sm " id="Search" type="text" placeholder="Search For a Company"
+                    aria-label="form-control-sm example">
+            </div>
+            <div class="container-md flex flex-row justify-content-center" id="analyse">
+                Or Analyse:
+                <a href="#" class="button">Infosys</a>
+                <a href="#" class="button">Dmart</a>
+                <a href="#" class="button">TCS</a>
+                <a href="#" class="button">Wipro</a>
+                <a href="#" class="button">IEX</a>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <section class="footer-1">
+            <section class="footer-2">
+                <h4>Screener.in</h4>
+                <p>Stock analysis and screening tool</p>
+                <p class="details">Zeroday Private ltd <i class="fa fa-copyright" aria-hidden="true"></i> 2021-2022</p>
+                <p class="details">Made with <i class="fa fa-heart" aria-hidden="true"></i> Bootstrap</p>
+                <p class="details">Data Provided by NSEIndia.com and Yahoo Finance Rapid Api</p>
+                <p class="details">Terms & Privacy.</p>
+            </section>
+            <section class="footer-3">
+                <section class="footer-4">
+
+                    <ul>
+                        <p>Product</p>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">What's new</a></li>
+                        <li><a href="#">Premium</a></li>
+                    </ul>
+                </section>
+                <section class="footer-4">
+                    <ul>
+                        <p>Team</p>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </section>
+                <section class="footer-4">
+                    <ul>
+                        <p>Theme</p>
+                        <li><a href="#">Light</a></li>
+                        <li><a href="#">Dark</a></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+
+</html>
